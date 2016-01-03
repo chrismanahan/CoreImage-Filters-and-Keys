@@ -13,9 +13,10 @@ filterNames
         filter?.inputKeys.forEach { attr in
             print("* \(attr)")
         }
-
-        print("Output Keys")
+        print("")
+        print("### Output Keys")
         filter?.outputKeys.forEach { attr in
             print("* \(attr)")
         }
+        print("")
     }
